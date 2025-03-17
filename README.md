@@ -18,7 +18,7 @@ This repository contains three examples of using a **Raspberry Pi Pico** with a 
 > **Note:** The Neo M6 typically operates at **3.3V**. Check your module’s voltage requirements.
 > 
 ### Neo M6 with pi pico
-![Neo M6 with pi pico](./images/neoM6_with_pico.png)
+![Neo M6 with pi pico](./images/neoM6_with_pico.jpg)
 
 > **Note:** PICO has micro USB port which has to connect with laptop using USB to micro USB cable.And other setup as per **Wiring Diagram** .
 ---
