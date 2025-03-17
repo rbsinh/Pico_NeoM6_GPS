@@ -15,8 +15,12 @@ This repository contains three examples of using a **Raspberry Pi Pico** with a 
 ![Neo M6 GPS Module](./images/neoM6.png)
 ![Neo M6 GPS Module With Antenna](./images/neo_me_with_antena.jpg)
 
-> **Note:** The Neo M6 typically operates at **3.3V** or **5V** depending on the breakout board. Check your module’s voltage requirements.
+> **Note:** The Neo M6 typically operates at **3.3V**. Check your module’s voltage requirements.
+> 
+### Neo M6 with pi pico
+![Neo M6 with pi pico](./images/neoM6.png)
 
+> **Note:** PICO has micro USB port which has to connect with laptop using USB to micro USB cable.And other setup as per **Wiring Diagram** .
 ---
 
 ## Wiring Diagram
@@ -83,11 +87,6 @@ This example integrates GPS data into OpenPLC, allowing the Pico to send locatio
 5. Configure OpenPLC to read latitude and longitude as external variables.
 6. Run OpenPLC and observe live location data being processed.
 
-### Expected Output in OpenPLC:
-```
-GPS Data Received: Latitude = 48.1173° N, Longitude = 11.5167° E
-Processing GPS data for automation...
-```
 
 ---
 
