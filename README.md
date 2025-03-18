@@ -47,6 +47,7 @@ This example reads raw NMEA sentences from the GPS module and prints them to the
 6. Open **Serial Monitor** (115200 baud) to view the raw GPS data.
 
 ### Expected Output:
+![Row Data Output](./images/row_data.png)
 ```
 $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
 $GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A
@@ -67,10 +68,11 @@ This example extracts latitude and longitude from NMEA sentences and prints them
 6. Open **Serial Monitor** (9600 baud) to view the parsed GPS data.
 
 ### Expected Output:
+![Parse Data Output](./images/parse_data.png)
 ```
-Latitude: 48.1173° N
-Longitude: 11.5167° E
-Time: 12:35:19 UTC
+Latitude: 13.0137° N
+Longitude: 77.6158° E
+Time: 16:35:6 UTC
 ```
 
 ---
